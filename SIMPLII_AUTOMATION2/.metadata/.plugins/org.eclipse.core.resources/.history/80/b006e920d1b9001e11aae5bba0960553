@@ -1,0 +1,8 @@
+*** Settings ***
+Library	SeleniumLibrary
+Library AtoitLibrary
+*** Test Cases ***
+TestCase 1
+	Log		HSSF
+
+

@@ -1,0 +1,26 @@
+*** Settings ****
+Library    SeleniumLibrary
+Library    AutoitLibrary
+
+*** Test Cases ***
+My TestCase 1
+	Log		HSSF
+	Log		SSSF	
+	
+# My TestCase 2
+	# Open Browser	https://www.google.co.in/	Chrome
+	# Go To    https://netbanking.hdfcbank.com/netbanking/
+	# Sleep   4s
+	# Maximize Browser Window
+	# Go Back
+	# Sleep   4s
+	# Log    log Message
+	# Close Browser	
+	
+My TestCase 3
+    WinWaitActive    Untitled - Notepad   
+    
+
+	
+	
+

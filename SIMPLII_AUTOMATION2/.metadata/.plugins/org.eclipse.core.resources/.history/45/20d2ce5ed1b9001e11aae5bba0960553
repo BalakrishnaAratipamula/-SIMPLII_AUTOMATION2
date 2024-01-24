@@ -1,0 +1,14 @@
+*** Settings ***
+Library		SeleniumLibrary
+Library		AutoitLibrary
+
+
+*** Test Cases ***
+My TestCase 1
+	Log		HSSF
+	Log		SSSF	
+	
+My TestCase 1
+	Log		HSSF2
+	Log		SSSF2	
+

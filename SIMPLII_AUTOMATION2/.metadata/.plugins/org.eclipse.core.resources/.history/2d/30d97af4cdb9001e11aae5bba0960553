@@ -1,0 +1,7 @@
+*** Settings ***
+
+*** Test Cases ***
+TestCase 1
+	log		HSSF
+
+

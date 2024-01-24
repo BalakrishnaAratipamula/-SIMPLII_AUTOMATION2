@@ -1,0 +1,37 @@
+*** Settings ****
+Documentation   This is the script for Create Sales Visit Repository
+Library     AutoItLibrary    10    ${True}
+Library    SeleniumLibrary
+
+*** Test Cases ***
+My TestCase 1
+	Log		HSSF
+	Log		SSSF	
+	
+# My TestCase 2
+	# Open Browser	https://www.google.co.in/	Chrome
+	# Capture Page Screenshot
+	# Go To    https://netbanking.hdfcbank.com/netbanking/
+	# Sleep   4s
+	# Maximize Browser Window
+	# Capture Page Screenshot
+	# Go Back
+	# Sleep   4s
+	# Log    log Message
+	# Close Browser	
+	
+My TestCase 3
+    Win Activate    Untitled - Notepad    ####### Before exection open Notepad    
+    Sleep    5s
+    Send    ABCDXYZ1234
+    Get Screen Image        ${TESTTAGS[0]}_${TESTSTATUS}.png
+    Win Close    *Untitled - Notepad
+    Sleep   3s
+    Send    {TAB}
+    Sleep    3s
+    Send    {ENTER}
+    
+
+	
+	
+
